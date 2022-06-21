@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(223, 141, 9, 0.445), rgb(202, 197, 180));
+}
+    
+
+/* menu de navegacion */
+
+.header{
+    background-color: rgba(228, 209, 175, 0.945);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6)
+}
+
+.logo{
+    color: rgb(200, 35, 35);
+    padding: 20px;
+    font-size: 45px;
+}
+
+
+
+.navegacion{
+    display: flex;
+}
+
+.navegacion li{
+    list-style: none;
+    padding-right: 20px;
+}
+
+.navegacion li :hover{
+    border-radius: 3px;
+    margin: 0 5px;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, .3) 
+}
+
+.navegacion li a{
+    text-decoration: none;
+    color: rgb(200, 35, 35);
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+} 
+ 
+    
+/*productos*/
+main{
+    padding:20px 8px;
+}
+
+main > img{
+    margin: 05px;
+    padding: 05px;
+}
+.bajo{
+    width: 318px;
+    height: 500px;
+}
+/*tinda*/
+.padre01{
+    display: flex;
+    flex-wrap:wrap;    
+}
+
+.caja{
+    border: 1px solid rgb(70, 91, 109);
+    background-color:rgb(193, 209, 223); 
+    color: black;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    text-align: center;
+}
